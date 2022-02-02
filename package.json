@@ -1,7 +1,7 @@
 {
-  "name": "hf-blueprint",
+  "name": "happyfox-blueprint",
   "version": "0.1.0",
-  "description": "The default blueprint for hf addons.",
+  "description": "The default blueprint for generating happyfox addons.",
   "keywords": [
     "ember-blueprint"
   ],
@@ -16,8 +16,7 @@
   "engines": {
     "node": "8.* || >= 10.*"
   },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-node": "^10.0.0"
+  "dependencies": {
+    "ember-cli-string-utils": "^1.1.0"
   }
 }
