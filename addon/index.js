@@ -2,7 +2,6 @@
 // const latestVersion = require('latest-version');
 // const stringUtil = require('ember-cli-string-utils');
 // const getChannelURL = require('ember-source-channel-url');
-debugger;
 module.exports = {
   description: 'Generates an Ember Octane addon.',
   name: 'addon',
