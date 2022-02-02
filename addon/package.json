@@ -1,19 +1,23 @@
 {
-    "name": "hf-blueprint",
-    "version": "0.1.0",
-    "description": "The default blueprint for hf addons.",
-    "keywords": [
-      "ember-blueprint"
-    ],
-    "author": "",
-    "scripts": {
-      "lint:js": "eslint ."
-    },
-    "engines": {
-      "node": "8.* || >= 10.*"
-    },
-    "devDependencies": {
-      "eslint": "^6.8.0",
-      "eslint-plugin-node": "^10.0.0"
-    }
+  "name": "hf-blueprint",
+  "version": "0.1.0",
+  "description": "The default blueprint for hf addons.",
+  "keywords": [
+    "ember-blueprint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganapathyHf/hf-blueprints.git"
+  },
+  "author": "",
+  "scripts": {
+    "lint:js": "eslint ."
+  },
+  "engines": {
+    "node": "8.* || >= 10.*"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^10.0.0"
   }
+}
