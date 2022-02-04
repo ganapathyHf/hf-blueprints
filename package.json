@@ -5,9 +5,10 @@
   "keywords": [
     "ember-blueprint"
   ],
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ganapathyHf/hf-blueprints.git"
+    "url": "https://github.com/ganapathyHf/hf-blueprints.git"
   },
   "author": "",
   "scripts": {
