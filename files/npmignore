@@ -23,9 +23,9 @@
 /CONTRIBUTING.md
 /ember-cli-build.js
 /testem.js
-# /tests/
+/tests/
 /yarn.lock
-# .gitkeep
+.gitkeep
 
 # ember-try
 /.node_modules.ember-try/

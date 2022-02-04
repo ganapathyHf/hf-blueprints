@@ -20,13 +20,16 @@ module.exports = {
       namespace,
       addonName,
       addonNamespace,
-      // emberCLIVersion: require('../../package').version,
-      // emberSourceVersion: emberSource,
-      //emberCLI,
-      year: new Date().getFullYear(),
       yarn: options.yarn,
       welcome: options.welcome,
       blueprint: 'addon'
     };
-  }
+  },
+  mapFile() {
+    let result = this._super.mapFile.apply(this, arguments);
+    if (result === 'npmignore') {
+      return '.npmignore';
+    }
+    return result;
+  },
 };
