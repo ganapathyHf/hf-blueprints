@@ -26,7 +26,7 @@ module.exports = {
       year: new Date().getFullYear(),
       yarn: options.yarn,
       welcome: options.welcome,
-      blueprint: 'addon',
+      blueprint: 'addon'
     };
   }
 };
