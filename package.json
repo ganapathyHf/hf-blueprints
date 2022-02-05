@@ -1,6 +1,6 @@
 {
-  "name": "happyfox-blueprint",
-  "version": "0.1.0",
+  "name": "happyfox-addon-blueprint",
+  "version": "0.0.0",
   "description": "The default blueprint for generating happyfox addons.",
   "keywords": [
     "ember-blueprint"
