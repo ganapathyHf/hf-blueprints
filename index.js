@@ -2,7 +2,7 @@
 
 const stringUtil = require('ember-cli-string-utils');
 module.exports = {
-  description: 'Generates boilerplate for Happyfox addons.',
+  description: 'Generates boilerplate files for Happyfox addons.',
   locals(options) {
     let entity = { name: 'dummy' };
     let rawName = entity.name;
@@ -27,6 +27,9 @@ module.exports = {
   },
   mapFile() {
     let result = this._super.mapFile.apply(this, arguments);
+    // During blueprint installation, if .npmignore is present, boilerplate files mentioned in .npmignore will be ignored and not generated.
+    // To avoid this we have `npmignore` in boilerplate files and rename to `.npmignore` only after blueprint is installed.
+    // Renaming is done in `mapFile` method as it is executed after blueprint is installed
     if (result === 'npmignore') {
       return '.npmignore';
     }
